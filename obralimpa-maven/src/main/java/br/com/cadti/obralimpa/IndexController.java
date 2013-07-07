@@ -15,7 +15,7 @@ public class IndexController
 	
 	@Path("/")
 	public void index() {
-		this.result.include("teste", "parametro");
+		this.result.include("teste", "parametro java pasta");
 	}
 
 }
